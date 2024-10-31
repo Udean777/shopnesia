@@ -8,7 +8,7 @@ const RootLayout = () => {
       <Stack.Screen name="(shop)" options={{ headerShown: false }} />
       <Stack.Screen
         name="categories"
-        options={{ headerShown: true, headerTitle: "Categories" }}
+        options={{ headerShown: false, headerTitle: "Categories" }}
       />
       <Stack.Screen
         name="products"
