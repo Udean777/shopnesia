@@ -22,7 +22,12 @@ const RootLayout = () => {
         />
         <Stack.Screen
           name="cart"
-          options={{ headerShown: true, headerTitle: "Cart" }}
+          options={{
+            headerShown: true,
+            headerTitle: "Your Cart",
+            headerTitleAlign: "center",
+            presentation: "modal",
+          }}
         />
       </Stack>
     </ToastProvider>
