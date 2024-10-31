@@ -11,6 +11,13 @@ const OrdersLayout = () => {
           headerShown: false,
         }}
       />
+      <Stack.Screen
+        name="[slug]"
+        options={{
+          headerShown: true,
+          headerTitleAlign: "center",
+        }}
+      />
     </Stack>
   );
 };
